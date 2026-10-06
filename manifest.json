@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "xela.fullscreen-workspace",
+  "name": "Fullscreen Workspace",
+  "version": "1.0.0",
+  "author": "xela",
+  "license": "MIT",
+  "description": "Moves a window that goes fullscreen onto an empty workspace when it shares its own, and brings it back afterwards.",
+  "kinds": ["service"],
+  "entryPoints": { "service": "Service.qml" }
+}
