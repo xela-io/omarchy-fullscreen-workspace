@@ -17,6 +17,26 @@ window directly (`window = "address:…"`).
 
     omarchy plugin add https://github.com/xela-io/omarchy-fullscreen-workspace.git --enable
 
+## Update
+
+    omarchy plugin update xela.fullscreen-workspace
+
+## Remove
+
+    omarchy plugin remove xela.fullscreen-workspace
+
+Removing it leaves no files or settings behind. Windows that are relocated at
+that moment simply stay on their current workspace.
+
+## Requirements
+
+Omarchy 4 (Quickshell shell) with Hyprland. No other dependencies; it only
+calls `hyprctl`. It does not change any user configuration.
+
+## License
+
+MIT, see `LICENSE`.
+
 ## Develop
 
     node --test tests/*.test.js
